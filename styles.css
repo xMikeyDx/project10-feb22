@@ -22,12 +22,27 @@ header {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 10px;
-    background-color: pink;
 }
 
 .nav a {
     text-decoration: none;
     color: #fff;
-    font-size: 24px;
-    margin: 0 10px;
+    font-size: 12px;
+    /* margin: 0 10px; */
+}
+
+.my-list li {
+  /* list-style: none; */
+  /* list-style-type: none; */
+  /* list-style-type: decimal-leading-zero; */
+}
+
+.my-list {
+  list-style: none;
+}
+
+.nav li {
+  /* list-style: none; */
+  display: inline-block;
+  margin: 0 5px;
 }
